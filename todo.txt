@@ -1,0 +1,3 @@
+get proper markdown editor
+convert important study notes from onenote into markdown
+push first commit to master branch
