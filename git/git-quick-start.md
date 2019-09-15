@@ -34,9 +34,11 @@ Alternatively, you may assign system-wide configurations in the config files
 ## Working with Repositories in Git
 A repository is a collection of content related to a specific purpose or project.
 >*git init \<repo-directory>* 
->- to create or 'initialize' a new repository in the specific directory
->- Creates a .git directory in the repository used for git metadata
-git add <filename>	 may be used to indicate relevant files for tracking in the repository
+- Create or 'initialize' a new repository in the specific directory
+- Creates a .git directory in the repository used for git metadata
+
+
+>git add <filename>	 may be used to indicate relevant files for tracking in the repository
 	        • git add . will track everything in current working directory
 git rm <filename>	 may be used to remove tracking from specific files
 git status	 may be used to obtain tracking information on files
@@ -107,5 +109,5 @@ git commit -a -m "text describing changes"	Automatically picks up all untracked 
 
 	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjI1NzQxMV19
+eyJoaXN0b3J5IjpbLTExOTU0OTI0NTRdfQ==
 -->
