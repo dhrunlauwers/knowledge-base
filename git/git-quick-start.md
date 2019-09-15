@@ -1,15 +1,15 @@
-#Linux Academy: Git Quick-Start
+# Linux Academy: Git Quick-Start
 
-##Introduction and Architecture
-	The git program is a source control tool created by Linus Torvalds.
+## Introduction and Architecture
+The git program is a source control tool created by Linus Torvalds.
 	
-	Git manages content snapshots, checksums, and metadata to keep track of changes in files.
+Git manages content snapshots, checksums, and metadata to keep track of changes in files.
 	
-	Some basic terminology:
-		○ Each state (change) is known as a commit
-		○ The current commit is known as the head (the commit we are actively working on)
-		○ Commits are affiliated with repositories and branches
-		○ The head may be moved between commits
+Some basic terminology:
+- Each state (change) is known as a **commit**
+	○ The current commit is known as the head (the commit we are actively working on)
+	○ Commits are affiliated with repositories and branches
+	○ The head may be moved between commits
 	
 	
 
@@ -104,3 +104,6 @@
 	git merge <target branch>	Merge to bring branches together
 
 	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjAxMDQ4MDg3Ml19
+-->
