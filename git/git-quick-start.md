@@ -29,9 +29,9 @@ Git configuration may be managed using git config
 - Useful when you prefer using a particular text editor by default
 
 Alternatively, you may assign system-wide configurations in the config files
->*etc/gitconfig* | corresponds to --system
-*~/gitconfig* OR *~/.config/git/config* | corresponds to --global
-*.git/config* | in a repository corresponds to --local
+* *etc/gitconfig* | corresponds to --system
+* *~/gitconfig* OR *~/.config/git/config* | corresponds to --global
+* *.git/config* | in a repository corresponds to --local
 
 
 ## Working with Repositories in Git
@@ -132,5 +132,5 @@ Branches may be pushed to remote sources, just like master. Remote sources are l
 
 Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NjM2MjE1XX0=
+eyJoaXN0b3J5IjpbMjA1MzE2Mzk5M119
 -->
