@@ -7,30 +7,31 @@ Git manages content snapshots, checksums, and metadata to keep track of changes 
 	
 Some basic terminology:
 - Each state (change) is known as a **commit**
-	○ The current commit is known as the head (the commit we are actively working on)
-	○ Commits are affiliated with repositories and branches
-	○ The head may be moved between commits
+- The current commit is known as the **head** 
+	- The commit we are actively working on
+- Commits are affiliated with **repositories** and **branches**
+- The head may be moved between commits
 	
 	
 
 
-##Install and Configure Git
-	Install using the following commands.
-	sudo apt-get install git	On Linux
-	Google and install Git Bash	On Windows
-	
-	Git configuration may be managed using git config
-	git config --global user.name <username>	Useful for identification when doing source control
-	git config --global user.email <email_addr>	Useful for identification when doing source control
-	git config --system core.editor vim	Useful when you prefer using a particular text editor by default
-	
-	Alternatively, you may assign system-wide configurations in the config files:
-		○ Etc/gitconfig with corresponds to --system
-		○ ~/gitconfig or ~/.config/git/config which corresponds to --global
-		○ .git/config in a repository which corresponds to --local
+## Install and Configure Git
+Install using the following commands.
+sudo apt-get install git	On Linux
+Google and install Git Bash	On Windows
+
+Git configuration may be managed using git config
+git config --global user.name <username>	Useful for identification when doing source control
+git config --global user.email <email_addr>	Useful for identification when doing source control
+git config --system core.editor vim	Useful when you prefer using a particular text editor by default
+
+Alternatively, you may assign system-wide configurations in the config files:
+	○ Etc/gitconfig with corresponds to --system
+	○ ~/gitconfig or ~/.config/git/config which corresponds to --global
+	○ .git/config in a repository which corresponds to --local
 
 
-##Working with Repositories in Git
+## Working with Repositories in Git
 	A repository is a collection of content related to a specific purpose or project.
 	git init <repo-directory>	 to create or 'initialize' a new repository in the specific directory
 		        • Creates a .git directory in the repository used for git metadata
@@ -105,5 +106,5 @@ Some basic terminology:
 
 	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDQ4MDg3Ml19
+eyJoaXN0b3J5IjpbLTQ1NzI5NzAxNl19
 -->
