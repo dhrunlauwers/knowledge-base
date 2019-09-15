@@ -120,11 +120,14 @@ Branches can be merged back into the master branch when work is complete
 
 ## Merging and Pushing Changes in Git
 Branches may be pushed to remote sources, just like master. Remote sources are logged in git config. If you cloned a repository, the origin represents the original repository.
-git push origin --all	Push branches to origin
-git push origin <branch>	Pushes specific branch to origin
-git merge <target branch>	Merge to bring branches together
+>*git push origin --all*
+- Push branches to origin
+>*git push origin \<branch>*
+- Pushes specific branch to origin
+>*git merge \<target branch>*
+-	Merge to bring branches together
 
 Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgwODIzMDNdfQ==
+eyJoaXN0b3J5IjpbLTEwOTk1OTk2MzBdfQ==
 -->
