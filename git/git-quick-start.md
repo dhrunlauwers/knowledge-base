@@ -47,24 +47,24 @@ A repository is a collection of content related to a specific purpose or project
 >*git commit -m "text describing changes"*
 - Commit or update the change in the repository
 >*git commit -a -m "text describing changes"*
-- Automatically picks up all untracked changes in the commit (shortcut so you can skip git add <filename>
+- Automatically picks up all untracked changes in the commit (shortcut so you can skip *git add \<filename>*
 
 
-##Managing What is Tracked with .gitignore
-	Sometimes there are artifacts in your project which are transient or do not otherwise need to be tracked in source code. There is a mechanism to have certain files disregarded for source control purposes.
-	
-	The file .gitignore (local to a repository or system global) may contain a list of file names or patterns which git will ignore.
-	
-	Create the .gitignore file and enter a file name, file pattern or directory:
-		○ nano .gitignore
-			§ pic.jpg
-			§ *.jpg
-			§ temp/
-	
-	It's best practice to track your .gitignore file in the repository with the source code
-	
-	It's also possible to exclude certain paths using the following command:
-		○ git config --global core.excludesfile <path>
+## Managing What is Tracked with .gitignore
+Sometimes there are artifacts in your project which are transient or do not otherwise need to be tracked in source code. There is a mechanism to have certain files disregarded for source control purposes.
+
+The file .gitignore (local to a repository or system global) may contain a list of file names or patterns which git will ignore.
+
+Create the .gitignore file and enter a file name, file pattern or directory:
+>*nano .gitignore
+		pic.jpg
+		*.jpg
+		temp/*
+
+It's best practice to track your .gitignore file in the repository with the source code
+
+It's also possible to exclude certain paths using the following command:
+	○ git config --global core.excludesfile <path>
 
 
 ##Cloning Repositories
@@ -113,5 +113,5 @@ A repository is a collection of content related to a specific purpose or project
 
 	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjkyMTI2MDhdfQ==
+eyJoaXN0b3J5IjpbLTExMjY2MTYwNzBdfQ==
 -->
