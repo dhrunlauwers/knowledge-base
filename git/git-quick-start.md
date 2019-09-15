@@ -41,10 +41,13 @@ A repository is a collection of content related to a specific purpose or project
 >*git add .*
 - Track everything in current working directory
 >*git rm \<filename>*
-- e used to remove tracking from specific files
-git status	 may be used to obtain tracking information on files
-git commit -m "text describing changes"	  commit or update the change in the repository
-git commit -a -m "text describing changes"	Automatically picks up all untracked changes in the commit (shortcut so you can skip git add <filename>
+- Remove tracking from specific files
+>*git status*
+- Obtain tracking information on files
+>*git commit -m "text describing changes"*
+- Commit or update the change in the repository
+>*git commit -a -m "text describing changes"*
+- Automatically picks up all untracked changes in the commit (shortcut so you can skip git add <filename>
 
 
 ##Managing What is Tracked with .gitignore
@@ -110,5 +113,5 @@ git commit -a -m "text describing changes"	Automatically picks up all untracked 
 
 	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjcyMjM4MF19
+eyJoaXN0b3J5IjpbLTEyMjkyMTI2MDhdfQ==
 -->
