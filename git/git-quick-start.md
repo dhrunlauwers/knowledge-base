@@ -71,16 +71,20 @@ It's also possible to exclude certain paths using the following command:
 Typically, the repository of record is not used for 'working' purposes. Changes to source are managed either in a separate branch or a remote repository.
 
 Cloning repositories allows you to copy an existing repository to a new location. 
->*git clone \<path_of_original> <clone_repo_location>	Cloning in the local file system
-git / systemuser@hostname:<orig_repo_path_relative_to_user_home> / <local_repo_path>	Cloning over SSH
-git clone https://github.com/username/reponame <local_repo_path>	Cloning over HTTPS (GitHub)
+>*git clone \<path_of_original> \<clone_repo_location>*
+- Cloning in the local file system
+>*git / systemuser@hostname:\<orig_repo_path_relative_to_user_home> / <local_repo_path>*
+- Cloning over SSH
+>*git clone https://github.com/username/reponame \<local_repo_path>*
+- Cloning over HTTPS (GitHub)
 
-When cloning from GitHub, the git config will keep track of the origin url and master branch to be used when pushing changes. Check it out with git config -l
+When cloning from GitHub, the git config will keep track of the origin url and master branch to be used when pushing changes. Check it out with 
+>*git config -l*
 
 The cloned repository keeps repository logs separately, making the origin repository log less cluttered.
 
 After local work is complete, the changes may be pushed back to the origin repository using the following command:
-	○ git push origin master
+>*git push origin master*
 
 Branching achieves a similar effect within a single repository (more information in branching section).
 
@@ -113,5 +117,5 @@ Branching achieves a similar effect within a single repository (more information
 
 	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTg5NjUzMF19
+eyJoaXN0b3J5IjpbLTExMDE5OTAwMl19
 -->
