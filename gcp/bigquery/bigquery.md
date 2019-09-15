@@ -3,7 +3,7 @@
 BigQuery is a SQL engine and storage to go along with it.
 
 ![](role_of_bigquery.png)
-![](warehouse_architecture.png
+![](warehouse_architecture.png)
 ![](project_roles.png))
 
 ### Pricing:
@@ -40,11 +40,11 @@ Start with a unit of work, AKA. Job or task:
 - Represents guaranteed resources, regardless of demand from other users
 - Minimizes variability in query performance
 
-#####Calculator: https://cloud.google.com/products/calculator/
+##### Calculator: https://cloud.google.com/products/calculator/
 
-#####Query validator: Validates query for syntax errors, and shows how much data will be processed
+##### Query validator: Validates query for syntax errors, and shows how much data will be processed
 	
-#####Query Quotas:
+##### Query Quotas:
 - Exist to protect infrastructure
 - Can be changed based on teams if you have multiple teams using the platform
 - Limits are as follows
@@ -54,7 +54,7 @@ Start with a unit of work, AKA. Job or task:
     - 1,000 tables referenced by a single query
     - Max result size: 128MB compressed
     
-#####Loading and Exporting Data:
+##### Loading and Exporting Data:
 ![](load_data_to_bigquery.png)
 ![](stream_data_to_bigquery.png)
 ![](bigquery_external_storage.png)

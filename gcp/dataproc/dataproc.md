@@ -9,11 +9,11 @@ Cloud-based implementation of Hadoop
 
 #### Set-up
 
-#####Creating a Dataproc cluster:
+##### Creating a Dataproc cluster:
 - Google cloud console
 - CLI
 	
-#####Cluster configuration:
+##### Cluster configuration:
 - **Name**: unique to your project (choose something you will remember)
 - **Zone**: indicates where compute nodes will be located (choose same zone as where your data is stored)
 - **Master Node: Cluster Mode:** 
@@ -32,17 +32,17 @@ Cloud-based implementation of Hadoop
 - If node is removed, may lose process
 - Keep at most a 50/50 ratio between dedicated and pre-emptible VMs
 	
-#####Running Jobs:
+##### Running Jobs:
 - Upload related files to bucket
 - Open up fire-walls to port 9870 and 8088
 - SSH into cluster to move files into HDFS and access software installed on the cluster such as Hive, Pig and PySpark
 - Access the file system using port 9870
 - Use port 8088 for the resource manager to check the status of jobs running
 	
-#####Input / Output:
+##### Input / Output:
 ![](input_output.png)
 
-#####Installing packages:
+##### Installing packages:
 - Apache Bigtop is used for pre-installed software
     - A library of pre-built initialization scripts are hosted in this publicly available bucket: gs://dataproc-initialization-actions
     - See the GitHub repository at https://github.com/GoogleCloudPlatform/dataproc-initialization-actions
