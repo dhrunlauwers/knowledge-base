@@ -21,9 +21,12 @@ Install using the following commands.
 Google and install Git Bash -	On Windows
 
 Git configuration may be managed using git config
-> *git config --global user.name \<username>*	| Useful for identification when doing source control
-*git config --global user.email <email_addr>* |	Useful for identification when doing source control
-*git config --system core.editor vim* | Useful when you prefer using a particular text editor by default
+> *git config --global user.name \<username>*	
+- Useful for identification when doing source control
+>*git config --global user.email \<email_addr>*
+-	Useful for identification when doing source control
+>*git config --system core.editor vim*
+- Useful when you prefer using a particular text editor by default
 
 Alternatively, you may assign system-wide configurations in the config files
 >*etc/gitconfig* | corresponds to --system
@@ -129,5 +132,5 @@ Branches may be pushed to remote sources, just like master. Remote sources are l
 
 Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk1OTk2MzBdfQ==
+eyJoaXN0b3J5IjpbNjA5NjM2MjE1XX0=
 -->
