@@ -89,16 +89,22 @@ After local work is complete, the changes may be pushed back to the origin repos
 Branching achieves a similar effect within a single repository (more information in branching section).
 
 
-##Understanding Git Logging
-	Git logs keep track of all commits in sequence. Use the following command to print information regarding commits and changes within the repository:
-	git log	Regular log
-	git log --oneline	Abbreviated log
-	git log -p	Detailed log
-	git log -- <filename>	Log for a single file
-	git log --oneline <filename>	Abbreviated log for a single file
-	git log --graph --decorate	Graphical representation of commit history (pipe diagram)
+## Understanding Git Logging
+Git logs keep track of all commits in sequence. Use the following command to print information regarding commits and changes within the repository:
+>*git log*
+- Regular log
+>*git log --oneline*
+- Abbreviated log
+>*git log -p*
+- Detailed log
+>*git log -- \<filename>*
+- Log for a single file
+>*git log --oneline \<filename>*
+- Abbreviated log for a single file
+>*git log --graph --decorate	
+- Graphical representation of commit history (pipe diagram)
 
-	Tip: use forward slash '/' to search git log
+Tip: use forward slash '/' to search git log
 
 ##Working with Branches in Git
 	Branching allows you to create an effective copy of the master branch within the repository that can be worked on without interfering with the master. This declutters the master branch.
@@ -117,5 +123,5 @@ Branching achieves a similar effect within a single repository (more information
 
 	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDE5OTAwMl19
+eyJoaXN0b3J5IjpbLTE3Nzk2OTU0MThdfQ==
 -->
