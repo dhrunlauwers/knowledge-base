@@ -101,27 +101,30 @@ Git logs keep track of all commits in sequence. Use the following command to pri
 - Log for a single file
 >*git log --oneline \<filename>*
 - Abbreviated log for a single file
->*git log --graph --decorate	
+>*git log --graph --decorate*
 - Graphical representation of commit history (pipe diagram)
 
-Tip: use forward slash '/' to search git log
+**Tip:** use forward slash '/' to search git log
 
-##Working with Branches in Git
-	Branching allows you to create an effective copy of the master branch within the repository that can be worked on without interfering with the master. This declutters the master branch.
-	
-	Branches can be merged back into the master branch when work is complete
-	git branch <new branch>	Create a new branch
-	git checkout <branch>	Begin working with a new branch
-	git checkout -b <new branch>	Create a new branch and begin working with it
+## Working with Branches in Git
+Branching allows you to create an effective copy of the master branch within the repository that can be worked on without interfering with the master. This declutters the master branch.
+
+Branches can be merged back into the master branch when work is complete
+>*git branch \<new branch>*
+- Create a new branch
+>*git checkout \<branch>*
+- Begin working with a new branch
+>*git checkout -b \<new branch>*
+- Create a new branch and begin working with it
 
 
-##Merging and Pushing Changes in Git
-	Branches may be pushed to remote sources, just like master. Remote sources are logged in git config. If you cloned a repository, the origin represents the original repository.
-	git push origin --all	Push branches to origin
-	git push origin <branch>	Pushes specific branch to origin
-	git merge <target branch>	Merge to bring branches together
+## Merging and Pushing Changes in Git
+Branches may be pushed to remote sources, just like master. Remote sources are logged in git config. If you cloned a repository, the origin represents the original repository.
+git push origin --all	Push branches to origin
+git push origin <branch>	Pushes specific branch to origin
+git merge <target branch>	Merge to bring branches together
 
-	Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
+Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk2OTU0MThdfQ==
+eyJoaXN0b3J5IjpbLTE1MzgwODIzMDNdfQ==
 -->
