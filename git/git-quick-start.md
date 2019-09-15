@@ -131,6 +131,3 @@ Branches may be pushed to remote sources, just like master. Remote sources are l
 -	Merge to bring branches together
 
 Merging branches where files may have changed in diverging ways is called a merge conflict. Start by checking out the branch you want to merge into, and then use git merge to merge another branch in.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzE2Mzk5M119
--->
